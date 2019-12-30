@@ -1,6 +1,6 @@
 //
-//  PlayerView.swift
-//  NBA_Test
+//  ContentView.swift
+//  NBA_XCode
 //
 //  Created by Luqman Abdurrohman on 12/30/19.
 //  Copyright © 2019 Luqman Abdurrohman. All rights reserved.
@@ -21,6 +21,8 @@ struct PlayerView: View {
                 .frame(height: 250)
             
             Image(player.imageName)
+                .resizable()
+                .scaledToFit()
                 .clipShape(Circle())
                 .background(Circle().foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
@@ -29,9 +31,12 @@ struct PlayerView: View {
                 .padding(.bottom, -70)
             
             
+            
             Text(player.name)
                 .font(.system(size: 50))
                 .fontWeight(.bold)
+                .padding(.horizontal)
+                .minimumScaleFactor(0.5)
             
             
             StatText(statName: "Age", statValue: String(player.age))
@@ -55,3 +60,4 @@ struct  PlayerView_Previews: PreviewProvider {
         }
     }
 }
+

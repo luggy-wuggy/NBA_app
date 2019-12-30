@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		709C733E23BA6B0C0066AE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C733D23BA6B0C0066AE3F /* AppDelegate.swift */; };
-		709C734023BA6B0C0066AE3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C733F23BA6B0C0066AE3F /* SceneDelegate.swift */; };
-		709C734223BA6B0C0066AE3F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C734123BA6B0C0066AE3F /* PlayerView.swift */; };
-		709C734423BA6B140066AE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C734323BA6B140066AE3F /* Assets.xcassets */; };
-		709C734723BA6B140066AE3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C734623BA6B140066AE3F /* Preview Assets.xcassets */; };
-		709C734A23BA6B140066AE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709C734823BA6B140066AE3F /* LaunchScreen.storyboard */; };
-		709C735823BA79900066AE3F /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C735723BA79900066AE3F /* StatText.swift */; };
-		709C735A23BA7A930066AE3F /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C735923BA7A930066AE3F /* PlayerRow.swift */; };
-		709C735C23BA82F10066AE3F /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C735B23BA82F10066AE3F /* PlayerList.swift */; };
-		709C735E23BAB3FD0066AE3F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C735D23BAB3FD0066AE3F /* Player.swift */; };
+		709C736C23BAB8140066AE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C736B23BAB8140066AE3F /* AppDelegate.swift */; };
+		709C736E23BAB8140066AE3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C736D23BAB8140066AE3F /* SceneDelegate.swift */; };
+		709C737023BAB8140066AE3F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C736F23BAB8140066AE3F /* PlayerView.swift */; };
+		709C737223BAB8170066AE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C737123BAB8170066AE3F /* Assets.xcassets */; };
+		709C737523BAB8170066AE3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C737423BAB8170066AE3F /* Preview Assets.xcassets */; };
+		709C737823BAB8170066AE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709C737623BAB8170066AE3F /* LaunchScreen.storyboard */; };
+		709C738023BAB8960066AE3F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C737F23BAB8960066AE3F /* Player.swift */; };
+		709C738223BAB8C50066AE3F /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C738123BAB8C50066AE3F /* StatText.swift */; };
+		709C738423BAB8D40066AE3F /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C738323BAB8D40066AE3F /* PlayerRow.swift */; };
+		709C738623BAB8EC0066AE3F /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C738523BAB8EC0066AE3F /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		709C733A23BA6B0C0066AE3F /* NBA_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		709C733D23BA6B0C0066AE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		709C733F23BA6B0C0066AE3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		709C734123BA6B0C0066AE3F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		709C734323BA6B140066AE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		709C734623BA6B140066AE3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		709C734923BA6B140066AE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		709C734B23BA6B140066AE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		709C735723BA79900066AE3F /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
-		709C735923BA7A930066AE3F /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
-		709C735B23BA82F10066AE3F /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
-		709C735D23BAB3FD0066AE3F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		709C736823BAB8140066AE3F /* NBA_XCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA_XCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C736B23BAB8140066AE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		709C736D23BAB8140066AE3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		709C736F23BAB8140066AE3F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		709C737123BAB8170066AE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		709C737423BAB8170066AE3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		709C737723BAB8170066AE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		709C737923BAB8170066AE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709C737F23BAB8960066AE3F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		709C738123BAB8C50066AE3F /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		709C738323BAB8D40066AE3F /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		709C738523BAB8EC0066AE3F /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		709C733723BA6B0C0066AE3F /* Frameworks */ = {
+		709C736523BAB8140066AE3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,44 +45,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		709C733123BA6B0C0066AE3F = {
+		709C735F23BAB8140066AE3F = {
 			isa = PBXGroup;
 			children = (
-				709C733C23BA6B0C0066AE3F /* NBA_Test */,
-				709C733B23BA6B0C0066AE3F /* Products */,
+				709C736A23BAB8140066AE3F /* NBA_XCode */,
+				709C736923BAB8140066AE3F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		709C733B23BA6B0C0066AE3F /* Products */ = {
+		709C736923BAB8140066AE3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				709C733A23BA6B0C0066AE3F /* NBA_Test.app */,
+				709C736823BAB8140066AE3F /* NBA_XCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		709C733C23BA6B0C0066AE3F /* NBA_Test */ = {
+		709C736A23BAB8140066AE3F /* NBA_XCode */ = {
 			isa = PBXGroup;
 			children = (
-				709C733D23BA6B0C0066AE3F /* AppDelegate.swift */,
-				709C733F23BA6B0C0066AE3F /* SceneDelegate.swift */,
-				709C735D23BAB3FD0066AE3F /* Player.swift */,
-				709C734123BA6B0C0066AE3F /* PlayerView.swift */,
-				709C734323BA6B140066AE3F /* Assets.xcassets */,
-				709C734823BA6B140066AE3F /* LaunchScreen.storyboard */,
-				709C734B23BA6B140066AE3F /* Info.plist */,
-				709C734523BA6B140066AE3F /* Preview Content */,
-				709C735723BA79900066AE3F /* StatText.swift */,
-				709C735923BA7A930066AE3F /* PlayerRow.swift */,
-				709C735B23BA82F10066AE3F /* PlayerList.swift */,
+				709C736B23BAB8140066AE3F /* AppDelegate.swift */,
+				709C736D23BAB8140066AE3F /* SceneDelegate.swift */,
+				709C736F23BAB8140066AE3F /* PlayerView.swift */,
+				709C737F23BAB8960066AE3F /* Player.swift */,
+				709C737123BAB8170066AE3F /* Assets.xcassets */,
+				709C737623BAB8170066AE3F /* LaunchScreen.storyboard */,
+				709C737923BAB8170066AE3F /* Info.plist */,
+				709C737323BAB8170066AE3F /* Preview Content */,
+				709C738123BAB8C50066AE3F /* StatText.swift */,
+				709C738323BAB8D40066AE3F /* PlayerRow.swift */,
+				709C738523BAB8EC0066AE3F /* PlayerList.swift */,
 			);
-			path = NBA_Test;
+			path = NBA_XCode;
 			sourceTree = "<group>";
 		};
-		709C734523BA6B140066AE3F /* Preview Content */ = {
+		709C737323BAB8170066AE3F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				709C734623BA6B140066AE3F /* Preview Assets.xcassets */,
+				709C737423BAB8170066AE3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,39 +90,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		709C733923BA6B0C0066AE3F /* NBA_Test */ = {
+		709C736723BAB8140066AE3F /* NBA_XCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 709C734E23BA6B140066AE3F /* Build configuration list for PBXNativeTarget "NBA_Test" */;
+			buildConfigurationList = 709C737C23BAB8170066AE3F /* Build configuration list for PBXNativeTarget "NBA_XCode" */;
 			buildPhases = (
-				709C733623BA6B0C0066AE3F /* Sources */,
-				709C733723BA6B0C0066AE3F /* Frameworks */,
-				709C733823BA6B0C0066AE3F /* Resources */,
+				709C736423BAB8140066AE3F /* Sources */,
+				709C736523BAB8140066AE3F /* Frameworks */,
+				709C736623BAB8140066AE3F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NBA_Test;
-			productName = NBA_Test;
-			productReference = 709C733A23BA6B0C0066AE3F /* NBA_Test.app */;
+			name = NBA_XCode;
+			productName = NBA_XCode;
+			productReference = 709C736823BAB8140066AE3F /* NBA_XCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		709C733223BA6B0C0066AE3F /* Project object */ = {
+		709C736023BAB8140066AE3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Luqman Abdurrohman";
 				TargetAttributes = {
-					709C733923BA6B0C0066AE3F = {
+					709C736723BAB8140066AE3F = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 709C733523BA6B0C0066AE3F /* Build configuration list for PBXProject "NBA_Test" */;
+			buildConfigurationList = 709C736323BAB8140066AE3F /* Build configuration list for PBXProject "NBA_XCode" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,51 +130,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 709C733123BA6B0C0066AE3F;
-			productRefGroup = 709C733B23BA6B0C0066AE3F /* Products */;
+			mainGroup = 709C735F23BAB8140066AE3F;
+			productRefGroup = 709C736923BAB8140066AE3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				709C733923BA6B0C0066AE3F /* NBA_Test */,
+				709C736723BAB8140066AE3F /* NBA_XCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		709C733823BA6B0C0066AE3F /* Resources */ = {
+		709C736623BAB8140066AE3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709C734A23BA6B140066AE3F /* LaunchScreen.storyboard in Resources */,
-				709C734723BA6B140066AE3F /* Preview Assets.xcassets in Resources */,
-				709C734423BA6B140066AE3F /* Assets.xcassets in Resources */,
+				709C737823BAB8170066AE3F /* LaunchScreen.storyboard in Resources */,
+				709C737523BAB8170066AE3F /* Preview Assets.xcassets in Resources */,
+				709C737223BAB8170066AE3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		709C733623BA6B0C0066AE3F /* Sources */ = {
+		709C736423BAB8140066AE3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709C733E23BA6B0C0066AE3F /* AppDelegate.swift in Sources */,
-				709C734023BA6B0C0066AE3F /* SceneDelegate.swift in Sources */,
-				709C734223BA6B0C0066AE3F /* PlayerView.swift in Sources */,
-				709C735E23BAB3FD0066AE3F /* Player.swift in Sources */,
-				709C735823BA79900066AE3F /* StatText.swift in Sources */,
-				709C735C23BA82F10066AE3F /* PlayerList.swift in Sources */,
-				709C735A23BA7A930066AE3F /* PlayerRow.swift in Sources */,
+				709C738023BAB8960066AE3F /* Player.swift in Sources */,
+				709C736C23BAB8140066AE3F /* AppDelegate.swift in Sources */,
+				709C736E23BAB8140066AE3F /* SceneDelegate.swift in Sources */,
+				709C737023BAB8140066AE3F /* PlayerView.swift in Sources */,
+				709C738223BAB8C50066AE3F /* StatText.swift in Sources */,
+				709C738623BAB8EC0066AE3F /* PlayerList.swift in Sources */,
+				709C738423BAB8D40066AE3F /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		709C734823BA6B140066AE3F /* LaunchScreen.storyboard */ = {
+		709C737623BAB8170066AE3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				709C734923BA6B140066AE3F /* Base */,
+				709C737723BAB8170066AE3F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		709C734C23BA6B140066AE3F /* Debug */ = {
+		709C737A23BAB8170066AE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		709C734D23BA6B140066AE3F /* Release */ = {
+		709C737B23BAB8170066AE3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,40 +296,40 @@
 			};
 			name = Release;
 		};
-		709C734F23BA6B140066AE3F /* Debug */ = {
+		709C737D23BAB8170066AE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"NBA_Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NBA_XCode/Preview Content\"";
 				DEVELOPMENT_TEAM = S28M6555LX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NBA_Test/Info.plist;
+				INFOPLIST_FILE = NBA_XCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "luggy.NBA-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "luggy.NBA-XCode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		709C735023BA6B140066AE3F /* Release */ = {
+		709C737E23BAB8170066AE3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"NBA_Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NBA_XCode/Preview Content\"";
 				DEVELOPMENT_TEAM = S28M6555LX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NBA_Test/Info.plist;
+				INFOPLIST_FILE = NBA_XCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "luggy.NBA-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "luggy.NBA-XCode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		709C733523BA6B0C0066AE3F /* Build configuration list for PBXProject "NBA_Test" */ = {
+		709C736323BAB8140066AE3F /* Build configuration list for PBXProject "NBA_XCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				709C734C23BA6B140066AE3F /* Debug */,
-				709C734D23BA6B140066AE3F /* Release */,
+				709C737A23BAB8170066AE3F /* Debug */,
+				709C737B23BAB8170066AE3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		709C734E23BA6B140066AE3F /* Build configuration list for PBXNativeTarget "NBA_Test" */ = {
+		709C737C23BAB8170066AE3F /* Build configuration list for PBXNativeTarget "NBA_XCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				709C734F23BA6B140066AE3F /* Debug */,
-				709C735023BA6B140066AE3F /* Release */,
+				709C737D23BAB8170066AE3F /* Debug */,
+				709C737E23BAB8170066AE3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 709C733223BA6B0C0066AE3F /* Project object */;
+	rootObject = 709C736023BAB8140066AE3F /* Project object */;
 }
